@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Your Household Budget, in Balance</title>
+<meta name="description" content="A working household budget planner: track income and spending, check the 50/30/20 rule, and save towards goals. Your numbers stay on your device.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="sitehead">
+  <div class="wrap headrow">
+    <a class="brand" href="#/">Home<span>Ledger</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#/">Dashboard</a>
+      <a href="#/planner">Planner</a>
+      <a href="#/goals">Goals</a>
+      <a href="#/tips">Tips</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer>
+  <div class="wrap">
+    <p>HomeLedger is a budgeting tool, not financial advice. Your numbers are saved in your own browser (localStorage) and never leave your device. The starting household is a sample — edit any number to make it yours.</p>
+    <p><a href="#/">Dashboard</a> · <a href="#/planner">Planner</a> · <a href="#/goals">Goals</a> · <a href="#/tips">Tips</a></p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
